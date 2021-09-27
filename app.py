@@ -1,6 +1,6 @@
 import student as st
 import teacher as t
-import administrator as ad
+import admin as ad
 
 def main_function():
     print("-----------Internal Assessment Score System-----------\n1.Login as Administrator\n4.Login as Teacher\n3.Login as Student")
