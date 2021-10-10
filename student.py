@@ -5,7 +5,7 @@ import app
 def after_login(usn):
     
     print("---------Login Success-------")
-    f = open("students.txt", "r")
+    f = open("student_record.txt", "r")
     data = f.read()
     f.close()
     li = data.split('$')
