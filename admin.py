@@ -100,7 +100,7 @@ def Update_Teacher():
             else:
                 res_lst.append(1)
         book = '$'.join(res_lst) + '$'
-        file = open("Book_Details.txt", "w")
+        file = open("teacher_record.txt", "w")
         file.write(book)
         file.close()
         after_login()
