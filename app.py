@@ -1,10 +1,14 @@
 import student as st
 import teacher as t
 import admin as ad
+import details as dt
 
 def main_function():
-    print("-----------Internal Assessment Score System-----------\n1.Login as Administrator\n4.Login as Teacher\n3.Login as Student")
-    choice= int(input("Enter your choice:"))
+    print("----------------Internal Assessment Score System-------------------")
+    data=["1.Login as Administrator 2.Login as Teacher 3.Login as Student"]
+    table =dt.get_pretty_table(data)
+    print(table)
+    choice=int(input("Choice:"))
     if choice==1:
         ad.main_function()
     elif choice==2:
