@@ -1,4 +1,6 @@
-import student as st
+#Project Done by Franstan DSouza, Prajwal Acharya, Brina Paula, BindhuShree
+
+import student as st 
 import teacher as t
 import admin as ad
 import details as dt
